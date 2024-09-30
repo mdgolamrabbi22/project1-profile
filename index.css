@@ -1,0 +1,201 @@
+/* Global  css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.global-btn{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.global-section{
+    padding: 3rem o;
+}
+
+.global-heading {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.global-head-p {
+    color: #78787B;
+    text-align: center;
+}
+
+/* header section  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #080808;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    
+}
+
+header p{
+    margin-left: 10px;
+}
+
+
+
+li{
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: background-color 0.3s;
+}
+li:hover{
+    background-color: rgb(67, 67, 219);
+}
+
+
+/* First section  */
+
+.first-section{
+    background-image: url(./asset/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    background-position: cover;
+    background-size: 1500px;
+    text-align: center;
+}
+
+.first-section p {
+    font-size: 2rem;
+}
+
+.first-section h2 {
+    font-size: 4rem;
+    margin: 10px 0;
+
+}
+
+/* About us section  */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    
+}
+
+.my{
+    width: 400px;
+}
+
+.about-h2 {
+    margin: 15px ;
+    width: 500px;
+    
+
+}
+
+.about-h2 h2{
+    font-size: 33px;
+    
+
+}
+
+.about-h2 p{
+    color: #78787B;
+    padding: 10px 0;
+    
+}
+
+/* this is service area  */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+    text-align: center;
+    padding: 50px;
+}
+
+.grid-single-item h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-single-item p{
+    color: #78787B;
+}
+
+
+i{
+    font-size: 60px;
+}
+
+.img-sec{
+    width: 130px;
+}
+
+/* testmonial section  */
+
+.tes-p{
+    color: black !important;
+}
+
+/* contact section  */
+
+.contact-head{
+    font-size: 55px;
+    text-align: center;
+}
+
+form{
+    margin-left: 33rem;
+    margin-top: 20px;
+}
+
+form input{
+    width: 450px;
+    height: 20px;
+   
+}
+
+form textarea{
+    width: 450px;
+}
+
+.submit-btn{
+    width: 150px;
+    color: white;
+    height: 35px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+/* fotter section  */
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+
+}
+
+footer p{
+    padding-top: 15px;
+}
